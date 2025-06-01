@@ -10,7 +10,7 @@ COPY . .
 # Environment variable for debugging
 ENV PYTHONUNBUFFERED=1
 
-EXPOSE 7860
+EXPOSE 7863
 
 # Run the application
 CMD ["python", "app.py"]
