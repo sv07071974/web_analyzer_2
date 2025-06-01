@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web-analyzerv2:
+    build: .
+    container_name: web-analyzerv2
+    ports:
+      - "7861:7861"
+    restart: unless-stopped
